@@ -7,4 +7,5 @@
 	</div>
 </footer>
 </body>
+<script src="../scripts/app.js"></script>
 </html>

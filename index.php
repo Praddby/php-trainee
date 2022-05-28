@@ -1,8 +1,9 @@
 <?php
+session_start();
 
-$title = "task 1";
-$content = "Content";
-$menu_list = ['Home', 'About', 'Contacts'];
+include_once("db/db.php");
+
+$title = "task 2";
 $footer_logo = "Hawking School";
 
 include("inc\\header.php");

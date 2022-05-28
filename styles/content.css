@@ -1,0 +1,44 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-done:hover {
+  background-color: green;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: blue;
+  color: white;
+}

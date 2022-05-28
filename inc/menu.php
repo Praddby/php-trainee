@@ -1,9 +1,10 @@
 <?php
+    $menuList = $pdo->query("SELECT `value` FROM menu");
 
-    foreach($menu_list as $index => $item) {
+    foreach($menuList as $index => $row) {
         if ($index === 0) {
-            echo "<li class=\"menu-item menu-item--active\">$item</li>";
+            echo "<li class=\"menu-item menu-item--active\">{$row['value']}</li>";
         } else {
-            echo "<li class=\"menu-item\">$item</li>";
+            echo "<li class=\"menu-item\">{$row['value']}</li>";
         }
     }
