@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.menu-item {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: chocolate;
+  text-shadow: 0 0 2px #666;
+}
+
+.menu-item--active {
+  color: chocolate;
+}
